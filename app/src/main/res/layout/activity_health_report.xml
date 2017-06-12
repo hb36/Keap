@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:layout_width="46dp"
+                android:layout_height="38dp"
+                android:id="@+id/back_to_info"
+                android:background="@drawable/back_to_info"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="90dp"
+                android:text="健康报告"
+                android:textColor="@color/colorWhite"
+                android:textSize="26dp" />
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/btn_refresh"
+                android:background="@drawable/refresh"
+                android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle3">
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="48sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/score"
+                android:layout_alignBottom="@+id/score"
+                android:layout_toRightOf="@id/score"
+                android:layout_marginLeft="20dp"
+                android:text="分"
+                android:textColor="@color/colorWhite"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/score"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="4dp"
+                android:text="我的健康指数"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="我的身材怎么样？"
+        android:textSize="20sp"
+        android:textColor="#545454"
+        android:layout_margin="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee">
+
+        <TextView
+            android:id="@+id/showBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="BMI"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/String_BMI"
+
+            android:textSize="22sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/BMI"
+            android:textSize="26sp"
+            android:textColor="@color/colorBlack"
+            android:layout_toLeftOf="@id/String_BMI"
+            android:gravity="center"
+            android:layout_marginRight="10dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bmi"
+            android:layout_below="@id/BMI"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/showFatRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="体脂率"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fatRateString"
+
+            android:textSize="22sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fatRate"
+
+            android:textSize="26sp"
+            android:textColor="@color/colorBlack"
+            android:layout_toLeftOf="@id/fatRateString"
+            android:gravity="center"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fatrate"
+            android:layout_below="@id/fatRate"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="综合BMI 和体脂率，你的身材属于"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="#545454"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/figureRank"
+            android:text="偏瘦型"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorText"/>
+    </LinearLayout>
+
+</LinearLayout>
