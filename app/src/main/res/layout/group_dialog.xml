@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/edit_group"
+        android:layout_alignBaseline="@id/edit_group"/>
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/group"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/edit_group"
+        android:layout_alignBaseline="@id/edit_group"/>
+
+    <TextView
+        android:id="@+id/middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_below="@id/edit_group"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_below="@id/edit_group"
+        android:layout_toLeftOf="@id/middle"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_below="@id/edit_group"
+        android:layout_toRightOf="@id/middle"/>
+
+</RelativeLayout>

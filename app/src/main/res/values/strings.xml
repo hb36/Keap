@@ -231,4 +231,69 @@
         <item>100</item>
     </string-array>
 
+    <string name="add_plan">添加计划</string>
+    <string name="add_activity">添加运动</string>
+    <string name="plan_name">计划名称：</string>
+    <string name="edit_hint">我的计划</string>
+    <string name="total">总消耗（千卡）：</string>
+    <string name="add_sure">确定添加</string>
+    <string name="shoubi">手臂</string>
+    <string name="tuntui">臀腿</string>
+    <string name="yaofu">腰腹</string>
+    <string name="jianbei">肩背</string>
+    <string name="lashen">拉伸</string>
+    <string name="group">组</string>
+    <string name="play">运动</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="save">保存</string>
+    <string name="change">编辑计划</string>
+
+    <string name="Jan">January</string>
+
+    <string name="Feb">Feburary</string>
+
+    <string name="Mar">March</string>
+
+    <string name="Apr">April</string>
+
+    <string name="May">May</string>
+
+    <string name="Jun">June</string>
+
+    <string name="Jul">July</string>
+
+    <string name="Aug">August</string>
+
+    <string name="Sep">September</string>
+
+    <string name="Oct">October</string>
+
+    <string name="Nov">November</string>
+
+    <string name="Dec">December</string>
+
+    <string name="y2013">2013</string>
+
+    <string name="y2014">2014</string>
+
+    <string name="y2015">2015</string>
+
+    <string name="y2016">2016</string>
+
+    <string name="y2017">2017</string>
+
+    <string name="y2018">2018</string>
+
+    <string name="y2019">2019</string>
+
+    <string name="y2020">2020</string>
+
+    <item name="tag_one" type="id" />
+
+    <item name="tag_two" type="id" />
+
+    <string name="action_settings">Settings</string>
+    <string name="defaultText">\???</string>
+
 </resources>

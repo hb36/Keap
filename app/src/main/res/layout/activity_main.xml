@@ -2,155 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/title" />
+    <include layout="@layout/title"/>
 
-    <RelativeLayout
-        android:id="@+id/editRel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="#f0f0f0">
+    <ListView
+        android:id="@+id/plan_list"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/account"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/user" />
-
-        <EditText
-            android:id="@+id/username_edit"
-            android:layout_width="match_parent"
-            android:layout_height="32dp"
-            android:layout_toRightOf="@id/account"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="8dp"
-            android:background="#f0f0f0"
-            android:hint="@string/inputUsername"
-            android:inputType="text"
-            android:textSize="16sp"
-            android:layout_gravity="center"
-            android:maxLength="10"/>
-
-        <ImageButton
-            android:id="@+id/clearName"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
-            android:layout_alignRight="@id/username_edit"
-            android:layout_alignBottom="@id/username_edit"
-            android:background="@drawable/clear"
-            android:layout_gravity="center"/>
-
-    </RelativeLayout>
+    </ListView>
 
     <LinearLayout
-        android:id="@+id/pwdRel"
+        android:id="@+id/bottom"
         android:layout_width="match_parent"
-        android:layout_height="32dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_height="44dp"
         android:orientation="horizontal"
-        android:background="#f0f0f0">
-
-        <ImageView
-            android:id="@+id/pwd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/pwd"/>
-
-        <EditText
-            android:id="@+id/pwdEdittext"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginLeft="8dp"
-            android:hint="@string/inputPwd"
-            android:inputType="textPassword"
-            android:textSize="16sp"
-            android:maxLength="16"
-            android:layout_gravity="center"
-            android:background="#f0f0f0"/>
-
-        <ImageButton
-            android:id="@+id/clearPwd"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
-            android:background="@drawable/clear"
-            android:layout_gravity="center"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp">
-
-        <CheckBox
-            android:id="@+id/rememberPwd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/rememberPwd"/>
-
-        <CheckBox
-            android:id="@+id/autoLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:text="@string/autoLogin"/>
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:text="@string/login"
-        android:background="@drawable/confirmbuttonstyle"/>
-
-    <LinearLayout
-        android:id="@+id/login_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="50dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/register_link"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:text="@string/login_register_link"
-            android:textColor="#888"
-            android:textSize="16sp" />
+        android:background="@color/colorWhite">
 
         <Button
-            android:id="@+id/register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:gravity="start"
-            android:text="注册"
-            android:textAlignment="textStart"
-            android:textColor="#FF0066CC"
-            android:textSize="18sp"
-            android:visibility="visible" />
+            android:id="@+id/plan"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/plan"
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:id="@+id/diary"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/diary" />
+
+        <Button
+            android:id="@+id/information"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/information"
+            android:layout_marginLeft="95dp"/>
+
+
     </LinearLayout>
 
+
+
 </LinearLayout>
-
-

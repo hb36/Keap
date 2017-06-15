@@ -31,6 +31,8 @@ public class InformationActivity extends Activity {
     private Button editButton;
     private Button resetPwdButton;
     private Button logoutButton;
+    private Button planButton;
+    private Button diaryButton;
 
     private UserDataManager mUserDataManager;
 
@@ -54,11 +56,15 @@ public class InformationActivity extends Activity {
         editButton = (Button) findViewById(R.id.edit_button);
         resetPwdButton = (Button) findViewById(R.id.resetPwd);
         logoutButton = (Button) findViewById(R.id.logout);
+        planButton = (Button) findViewById(R.id.plan);
+        diaryButton = (Button) findViewById(R.id.diary);
 
         healthReportBtn.setOnClickListener(mListener);
         editButton.setOnClickListener(mListener);
         resetPwdButton.setOnClickListener(mListener);
         logoutButton.setOnClickListener(mListener);
+        planButton.setOnClickListener(mListener);
+        diaryButton.setOnClickListener(mListener);
 
         Intent getName = getIntent();
         name = getName.getStringExtra("extra_name");
@@ -104,6 +110,18 @@ public class InformationActivity extends Activity {
                     Intent info_to_main = new Intent(InformationActivity.this,
                             LoginActivity.class);
                     startActivity(info_to_main);
+                    break;
+                case R.id.plan:
+                    Intent info_to_plan = new Intent(InformationActivity.this,
+                            Plan_MainActivity.class);
+                    info_to_plan.putExtra("extra_name",name);
+                    startActivity(info_to_plan);
+                    break;
+                case R.id.diary:
+                    Intent info_to_diary = new Intent(InformationActivity.this,
+                            Move_MainActivity.class);
+                    info_to_diary.putExtra("extra_name",name);
+                    startActivity(info_to_diary);
                     break;
                 default:
                     break;

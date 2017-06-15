@@ -58,6 +58,8 @@
                 android:layout_marginStart="36dp"
                 android:layout_marginTop="36dp"
                 android:textColor="@color/colorWhite"
+                android:text="@string/defaultText"
+
                 android:textSize="48sp" />
 
             <TextView
@@ -120,6 +122,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/BMI"
             android:textSize="26sp"
+            android:text="@string/defaultText"
             android:textColor="@color/colorBlack"
             android:layout_toLeftOf="@id/String_BMI"
             android:gravity="center"
@@ -159,7 +162,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/fatRate"
-
+            android:text="@string/defaultText"
             android:textSize="26sp"
             android:textColor="@color/colorBlack"
             android:layout_toLeftOf="@id/fatRateString"
@@ -187,7 +190,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/figureRank"
-            android:text="偏瘦型"
+            android:text="@string/defaultText"
             android:textSize="22sp"
             android:layout_gravity="center"
             android:textColor="@color/colorText"/>

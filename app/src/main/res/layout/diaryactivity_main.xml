@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context=".Plan_MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffeeeeee"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#586771" >
+
+            <TextView
+                android:id="@+id/popupwindow_calendar_month"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#584b5c"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <caiyingyi.com.keap.Move_SignCalendar
+            android:id="@+id/popupwindow_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:clickable="false" >
+        </caiyingyi.com.keap.Move_SignCalendar>
+
+        <Button
+            android:id="@+id/btn_signIn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_sign_bg_selector"
+            android:text="签到"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/riji"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_popup">
+
+        <ImageView
+            android:id="@+id/dia_img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/diary2"
+            />
+
+        <TextView
+            android:id="@+id/diary_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="健身日记"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/kepu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/riji">
+        <ImageView
+            android:id="@+id/arti_img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/article"
+            />
+        <TextView
+            android:id="@+id/article_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="科普文章"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+<LinearLayout
+android:id="@+id/bottom"
+android:layout_width="match_parent"
+android:layout_height="44dp"
+android:orientation="horizontal"
+android:background="@color/colorWhite"
+android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+<Button
+    android:id="@+id/plan"
+    android:layout_width="40dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/plan"
+    android:layout_marginLeft="40dp"/>
+
+<Button
+    android:id="@+id/move"
+    android:layout_width="40dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="90dp"
+    android:background="@drawable/move" />
+
+<Button
+    android:id="@+id/information"
+    android:layout_width="40dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/information"
+    android:layout_marginLeft="95dp"/>
+
+</LinearLayout>
+</RelativeLayout>

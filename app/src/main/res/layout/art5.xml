@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title_article"/>
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="提高健身减肥效率，你需要做这些"
+        android:layout_margin="15dp"
+        android:textColor="#594c5e"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_below="@+id/title1"
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16.5sp"
+            android:layout_margin="15dp"
+            android:text="
+“少吃多运动”一直是减肥期间必须执行的铁律\n
+但在运动过后也要留意下面这几件事情，不只帮助提升运动减肥的效率，也预防若运动负担过大对身体造成的伤害，
+免得想靠运动减重却越减越重，还伤了身体！\n
+健身减肥从来就不是一件容易的事！健身后做这三件事！提高你的运动减肥效率！\n
+如何提高健身减肥效率？健身后做这三件事！\n\n
+No.1运动后适当饮食，小心别吃错！\n
+虽然减肥时\n
+在热量摄取的方面要做好控制\n
+但运动後适当的进食\n
+不但可以补充体力、缓解疲劳感\n
+也能提供身体活动必要的能量\n
+促进肌肉纤维的修复与生长\n
+并维持运动后热量消耗的持续状态\n
+促进身心代谢\n
+但也不能盲目的进食\n
+运动后的饮食尽量以低脂高蛋白为主\n
+碳水化合物及蛋白质的最佳比例为1.5：1\n
+所摄入的卡路里总量\n
+也不要超过运动时消耗的50%\n
+才不会白白影响减重效果\n\n
+
+No.2运动后拉筋收操，避免萝卜腿！\n
+结束任何健身运动之後\n
+记得给自己10分钟左右的时间拉筋收操\n
+简单的静态伸展，有助于肌肉放松\n
+帮助排除运动过程中产生的乳酸堆积\n
+也较能缓解隔天的肌肉酸痛\n
+伸展运动过后的肌肉也能\n
+提升肌肉组织的张力与弹性\n
+避免女生最害怕的小腿肌形成\n\n
+
+No.3缓和运动很重要！运动后别马上休息！\n
+进行完有氧运动\n
+核心训练或高强度间歇训练\n
+等较为剧烈的运动\n
+千万不要马上停下来休息\n
+大脑会因供血不足缺氧而出现头晕\n
+恶心等症状\n
+尽量先做些低强度的运动或缓和运动\n
+例如：在跑步机上慢走5分钟左右\n
+让身体先适应\n
+不但能让体能较快恢复\n
+也能提供关节更好的保护修复\n
+囚徒健身，我们的努力只为每一个平凡的你。\n
+            "/>
+    </ScrollView>
+</LinearLayout>

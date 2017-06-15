@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/Jan"
+        app:showAsAction="never"
+        android:title="@string/Jan"/>
+    <item
+        android:id="@+id/Feb"
+        app:showAsAction="never"
+        android:title="@string/Feb"/>
+    <item
+        android:id="@+id/Mar"
+        app:showAsAction="never"
+        android:title="@string/Mar"/>
+    <item
+        android:id="@+id/Apr"
+        app:showAsAction="never"
+        android:title="@string/Apr"/>
+    <item
+        android:id="@+id/May"
+        app:showAsAction="never"
+        android:title="@string/May"/>
+    <item
+        android:id="@+id/Jun"
+        app:showAsAction="never"
+        android:title="@string/Jun"/>
+
+    <item
+        android:id="@+id/Jul"
+        app:showAsAction="never"
+        android:title="@string/Jul"/>
+    <item
+        android:id="@+id/Aug"
+        app:showAsAction="never"
+        android:title="@string/Aug"/>
+    <item
+        android:id="@+id/Sep"
+        app:showAsAction="never"
+        android:title="@string/Sep"/>
+    <item
+        android:id="@+id/Oct"
+        app:showAsAction="never"
+        android:title="@string/Oct"/>
+    <item
+        android:id="@+id/Nov"
+        app:showAsAction="never"
+        android:title="@string/Nov"/>
+    <item
+        android:id="@+id/Dec"
+        app:showAsAction="never"
+        android:title="@string/Dec"/>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exercise_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+    <include layout="@layout/exercisetitle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/description"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/exercisebutton1" />
+
+        <Button
+            android:id="@+id/begin_pause"
+            android:layout_width="115dp"
+            android:layout_height="125dp"
+            android:background="@drawable/exercisebutton2"
+            android:text="计时开始"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/the_pre"
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/begin_pause"
+            android:background="@drawable/thelast" />
+
+        <Button
+            android:id="@+id/the_next"
+            android:layout_width="52dp"
+            android:layout_height="92dp"
+            android:textSize="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/begin_pause"
+            android:background="@drawable/thenext" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/la"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:layout_above="@id/begin_pause"
+            android:layout_centerInParent="true"
+            android:background="@drawable/gaotaitui"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

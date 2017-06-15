@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title_article"/>
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="最有效的减肥运动，你练了吗？"
+        android:layout_margin="15dp"
+        android:textColor="#594c5e"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_below="@+id/title1"
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16.5sp"
+            android:layout_margin="15dp"
+            android:text="在运动减肥领域，一直有两种声音。\n
+1. 有氧运动减肥\n
+有氧运动在30分钟后脂肪供能的百分比会超过糖原，有氧运动可以直接消耗脂肪。\n
+2. 无氧运动减肥\n
+消耗脂肪靠的不是运动时候消耗的热量，而是靠全天的基础代谢提升，所以我们应该通过无氧运动增加肌肉量和使用率，让肌肉来消耗脂肪。\n
+这两种方法各自都有道理，而且都有大量的成功案例支持。所以运动专家们想到了将两者进行结合，把两者的优点最大化，这就是 HIIT。\n
+一. 用 HIIT 减肥的好处\n
+节省时间\n
+每周 3 - 4 次，每次只需 15 - 30 分钟，非常适合上班族的作息。\n
+越减越轻松\n
+在减脂过程中，你的力量和其他运动能力会不断增长，减脂效率会越来越高。\n
+随时随地\n
+不需要专门的跑鞋，不需要各种器械，不需要太大的场地，在家里就可以做。\n\n
+二. HIIT 是什么？\n
+HIIT 全称高强度间歇训练，是一种动作的编排方式，是有氧与无氧的混合训练。它的训练原则就是让身体始终处于不完全恢复的状态，使劲折腾。
+HIIT 里的第一个 I 是 intensity，指的是强度。在无氧与有氧里都有各自对高强度的定义，心率逼近 200 是高强度，举起极限重量的杠铃也是高强度。
+第二个 I 是 interval，指的是间歇。高强度的训练是无法持续太长时间的，好比你全力冲刺跑，最多跑 10 秒就跪了。它需要调动 ATP 系统与无氧糖酵解系统来提供能量。
+在完成一套高强度训练之后，身体是需要冷却的。这就是间歇的必要性。如果你觉得不需要间歇也能继续做下去，说明强度还不够高。\n
+比较简单 HIIT 训练是这样的：\n
+例1：冲刺跑 30s - 慢跑 3min - 冲刺跑 30s - 慢跑 3min……\n
+例2：深蹲跳 20 次 - 俯卧撑 20 个 - 休息 45 秒 - 深蹲跳 20 次 ……\n\n
+三. HIIT 和有氧运动有什么区别\n
+有氧运动可以说是目前最主流的减脂方式，Keep 君之所以推崇 HIIT，是因为它有一些比有氧运动更好的地方，我们来从数据上看一下。\n
+有氧运动强调的是恒定强度、可持续性，从心率上看，它较为稳定。而HIIT强调的是强度的变换以及运动与间歇的组合。心率会起伏不定，通常在 130—180 之
+间。\n
+由于 HIIT 的强度较高，一般人只能进行 15 - 30 分钟的训练，和 60 -120 分钟的有氧运动相比，它在训练时消耗的热量会更少。\n
+HIIT 的意义\n
+HIIT的精髓就在于能让身体全天候高效燃脂。\n
+注意上图中灰色阴影部分，有氧运动训练结束后，身体的燃脂效率会直接回落到正常水平。\n
+HIIT 结束之后，高强度的训练会造成过量的氧气消耗（EPOC），这个缺口会在训练结束后慢慢补充回来，同时身体的血液温度、心率、血乳酸恢复到常态也需要消耗额外的热量，身体将持续保持高速燃脂的状态长达 24 小时。\n
+HIIT 的其他好处\n
+1. 减少肌肉流失，不会让你的脂肪越减越难减。\n
+2. 更好地提升心肺功能，让你不那么容易喘气。\n
+3. 降低骨质疏松风险。\n
+4. 提高运动表现力，让你身体更加灵活、强健。\n
+HIIT 的四种难度\n
+Keep 当中的 HIIT 训练现已分为四个难度。你最适合哪一种难度的训练？Keep 君来告诉你：\n
+·K1：为 HIIT 打基础的适应性训练，适合身体素质较差的初学者。\n
+·K2：初级训练，适合身体素质尚可的初学者。\n
+·K3：进阶训练，开始真正 HIIT 减脂训练，适合 25 分钟能跑 4km 以上的人。\n
+·K4：强化训练，适合需要进一步刷脂的健身发烧友，强度较大，不建议初学者尝试。\n
+在实际训练时，Keep 用了两种方式来提升强度更快的速度或者更大的力量。\n
+快速动作：如 burpees，迅速拉升你的心率，提升氧气的消耗量。\n
+力量动作：如跳跃俯卧撑，能充分调动肌肉发力，促进肌肉力量增长，提升基础代谢。\n
+舒缓动作：如支撑平移，能给身体一个调节期，让身体为下一轮高强度动作做好准备。\n
+这些快速动作、力量动作、舒缓动作会科学地排列在 HIIT 计划里，让身体内三大供能系统轮番上阵，达到最大化燃脂的效果。\n
+HIIT 减肥效果虽好，但也不是适用于所有人。患有心血管、脑血管、肺脏疾病的人；静息心率过高的人（>85）；极度肥胖人群、老年人、高血压患者是不能参加 HIIT 训练的。但如果你没有以上症状，现在就来一组吧～\n
+
+            "/>
+    </ScrollView>
+</LinearLayout>

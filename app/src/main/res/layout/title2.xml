@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title2">
+
+    <EditText
+        android:id="@+id/edit_planName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_hint"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/add_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_activity"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:textSize="8pt"/>
+
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/add"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>

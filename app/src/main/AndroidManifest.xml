@@ -20,13 +20,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".Plan_MainActivity" />
+        <activity android:name=".Plan_AddPlan" />
+        <activity android:name=".Plan_AddActivity" />
+        <activity android:name=".EXE_ExerciseActivityFirst" />
+        <activity android:name=".EXE_ExerciseActivitySecond" />
+        <activity android:name=".EXE_ExerciseActivityThird" />
+        <activity android:name=".Plan_APlan" />
+        <activity android:name=".Move_MainActivity" />
+        <activity android:name=".Move_article_list" />
+        <activity android:name=".Move_diray_main" />
+        <activity android:name=".Move_ActivityEdit" />
+        <activity android:name=".Move_TimeChange" />
+        <activity android:name=".Move_article1" />
+        <activity android:name=".Move_article2" />
+        <activity android:name=".Move_article3" />
+        <activity android:name=".Move_article4" />
+        <activity android:name=".Move_article5" />
+
+        <activity android:name=".RegisterActivity" />
         <activity
             android:name=".InformationActivity"
-            android:label="个人信息"/>
-        <activity android:name=".EditInformationActivity"/>
-        <activity android:name=".ResetPwdActivity"/>
-        <activity android:name=".HealthReportActivity" />
+            android:label="个人信息" />
+        <activity android:name=".EditInformationActivity" />
+        <activity android:name=".ResetPwdActivity" />
+        <activity android:name=".HealthReportActivity"></activity>
     </application>
 
 </manifest>
