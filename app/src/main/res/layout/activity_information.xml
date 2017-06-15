@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="@string/user_name"
-                android:textSize="22sp" />
+                android:textSize="22sp"/>
 
             <TextView
                 android:id="@+id/username_edit"
